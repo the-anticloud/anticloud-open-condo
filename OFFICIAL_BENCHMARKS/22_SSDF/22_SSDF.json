@@ -1,0 +1,21 @@
+{
+ "framework": "22_SSDF",
+ "title": "NIST SP 800-218 SSDF v1.1",
+ "project": "OPEN_CONDO",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "head=8ee1a589d5f1b49e9716be65596daa0020dc9f47 commits=1 clea"
+  },
+  {
+   "check": "07_owasp_top10",
+   "status": "PASS",
+   "observed": "9/9 controls evidenced (100.0%)"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "bb264e4d79be12dea2d3f4d4ace213632aa8fdbfbd69db9b066cb252c566e46d",
+ "register_sha3": "e83f9cf9a5886a14be194fab346153f05ed4544025b983f3134eff039b81fab3"
+}
